@@ -1,0 +1,24 @@
+[package]
+name = "rs-reals2array"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.arrow]
+version = "56"
+default-features = false
+features = [
+]
+
+[dependencies.half]
+version = "2"
+default-features = false
+features = [
+	"std",
+]
+
+[dependencies.serde_json]
+version = "1"
+default-features = false
+features = [
+	"std",
+]
